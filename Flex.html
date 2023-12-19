@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0d9fa4;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex-basis: 25%; 
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        .main-content {
+            flex-basis: 70%;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #1fe5db;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <title>Simple Flexbox Layout</title>
+</head>
+<body>
+
+<header>
+    <h1>Flexbox Layout</h1>
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Some sidebar content goes here.</p>
+    </div>
+
+    <div class="main-content">
+        <h2>Main Content</h2>
+        <p>In web development, "flex" typically refers to Flexbox, a layout model for arranging 
+            elements on a web page in a flexible and responsive way. It allows you to easily create 
+            layouts with rows, columns, and elements that grow and shrink to fit the available space.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Flexbox Layout. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
